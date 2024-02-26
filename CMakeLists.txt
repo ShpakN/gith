@@ -4,4 +4,6 @@ project(gith C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(gith main.c
-        vector.h)
+        libs/data_structures/vector/vector.h
+        libs/data_structures/vector/vector.c
+)

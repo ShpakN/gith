@@ -1,7 +1,4 @@
 # ninja log v5
-0	73	7305788455092979	CMakeFiles/gith.dir/main.c.obj	7c3a8d0a2ff22ba6
-73	131	7305788455643007	gith.exe	b102cdee4d2e349f
-0	67	7305789521871949	build.ninja	b68dabbbcd0f8afb
-0	61	7305789521871949	build.ninja	b68dabbbcd0f8afb
 1	39	7305791188984412	CMakeFiles/gith.dir/main.c.obj	7c3a8d0a2ff22ba6
 39	81	7305791189374952	gith.exe	b102cdee4d2e349f
+0	61	7306546464557478	build.ninja	b68dabbbcd0f8afb
