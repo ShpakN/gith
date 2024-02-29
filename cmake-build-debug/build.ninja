@@ -49,14 +49,20 @@ cmake_ninja_workdir = C$:/Users/oxana/CLionProjects/gith/cmake-build-debug/
 
 build cmake_object_order_depends_target_gith: phony || CMakeFiles/gith.dir
 
-build CMakeFiles/gith.dir/main.c.obj: C_COMPILER__gith_unscanned_Debug C$:/Users/oxana/CLionProjects/gith/main.c || cmake_object_order_depends_target_gith
-  DEP_FILE = CMakeFiles\gith.dir\main.c.obj.d
+build CMakeFiles/gith.dir/libs/data_structures/vector/main.c.obj: C_COMPILER__gith_unscanned_Debug C$:/Users/oxana/CLionProjects/gith/libs/data_structures/vector/main.c || cmake_object_order_depends_target_gith
+  DEP_FILE = CMakeFiles\gith.dir\libs\data_structures\vector\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\gith.dir
-  OBJECT_FILE_DIR = CMakeFiles\gith.dir
+  OBJECT_FILE_DIR = CMakeFiles\gith.dir\libs\data_structures\vector
 
 build CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER__gith_unscanned_Debug C$:/Users/oxana/CLionProjects/gith/libs/data_structures/vector/vector.c || cmake_object_order_depends_target_gith
   DEP_FILE = CMakeFiles\gith.dir\libs\data_structures\vector\vector.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\gith.dir
+  OBJECT_FILE_DIR = CMakeFiles\gith.dir\libs\data_structures\vector
+
+build CMakeFiles/gith.dir/libs/data_structures/vector/vectorVoid.c.obj: C_COMPILER__gith_unscanned_Debug C$:/Users/oxana/CLionProjects/gith/libs/data_structures/vector/vectorVoid.c || cmake_object_order_depends_target_gith
+  DEP_FILE = CMakeFiles\gith.dir\libs\data_structures\vector\vectorVoid.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\gith.dir
   OBJECT_FILE_DIR = CMakeFiles\gith.dir\libs\data_structures\vector
@@ -69,7 +75,7 @@ build CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER__
 #############################################
 # Link the executable gith.exe
 
-build gith.exe: C_EXECUTABLE_LINKER__gith_Debug CMakeFiles/gith.dir/main.c.obj CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj
+build gith.exe: C_EXECUTABLE_LINKER__gith_Debug CMakeFiles/gith.dir/libs/data_structures/vector/main.c.obj CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/gith.dir/libs/data_structures/vector/vectorVoid.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\gith.dir

@@ -1,3 +1,6 @@
-//
-// Created by NIKITA on 26.02.2024.
-//
+#include "vector.h"
+
+void test_atVector_notEmptyVector() {
+    vector *v = {(vector *) 1, 3, 5};
+    isEmpty(v);
+};

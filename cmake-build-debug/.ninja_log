@@ -1,4 +1,12 @@
 # ninja log v5
 1	39	7305791188984412	CMakeFiles/gith.dir/main.c.obj	7c3a8d0a2ff22ba6
 39	81	7305791189374952	gith.exe	b102cdee4d2e349f
-0	61	7306546464557478	build.ninja	b68dabbbcd0f8afb
+0	61	7308148939690316	build.ninja	b68dabbbcd0f8afb
+3	134	7308175771943507	CMakeFiles/gith.dir/libs/data_structures/vector/vectorVoid.c.obj	99a531873ce8208d
+5	135	7308175771943507	CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj	5b2ffb6497859d
+1	136	7308175771953511	CMakeFiles/gith.dir/libs/data_structures/vector/main.c.obj	4db2d6e34bc27d24
+1	171	7308486616399020	CMakeFiles/gith.dir/libs/data_structures/vector/main.c.obj	4db2d6e34bc27d24
+3	174	7308486616409018	CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj	5b2ffb6497859d
+1	44	7308486860057144	CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj	5b2ffb6497859d
+4	46	7308490492125550	CMakeFiles/gith.dir/libs/data_structures/vector/vector.c.obj	5b2ffb6497859d
+1	48	7308490492145559	CMakeFiles/gith.dir/libs/data_structures/vector/main.c.obj	4db2d6e34bc27d24
