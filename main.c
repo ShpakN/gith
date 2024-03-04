@@ -1,15 +1,18 @@
-#include <stdio.h>
 #include <stdint.h>
-#include "vector.h"
+#include "libs/data_structures/vector/vector.h"
+#include "libs/data_structures/vector/vector.c"
+
 void test_atVector_notEmptyVector() {
     vector *v = {(vector *) 1, 3, 5};
     isEmpty(v);
 };
-void test_pushBack_emptyVector(){
+
+void test_pushBack_emptyVector() {
     vector *v = {(vector *) 1, 3, 5};
     push_back((int) v, 3);
     isEmpty(v);
 }
+
 void test_PopBack_notEmptyVector() {
     vector v = vector_create(0);
     push_back(12, 14);
@@ -18,11 +21,13 @@ void test_PopBack_notEmptyVector() {
     assert(v.size == 0);
     assert(v.capacity == 1);
 }
+
 void test() {
     test_atVector_notEmptyVector();
     test_pushBack_emptyVector();
     test_PopBack_notEmptyVector();
 }
+
 int main() {
     vector v = vector_create(SIZE_MAX);
     test();
